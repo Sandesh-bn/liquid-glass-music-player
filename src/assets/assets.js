@@ -99,7 +99,7 @@ export const albumsData = [
     },
     {   
         id:4,
-        name: "Mega Hits,",
+        name: "Mega Hits",
         image: img11,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#234e52"
@@ -127,7 +127,7 @@ export const albumsData = [
     },
     {   
         id:4,
-        name: "Mega Hits,",
+        name: "Mega Hits",
         image: img5,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#234e52"

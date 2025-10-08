@@ -73,7 +73,7 @@ export default function AudioPlayer({ currentSong }) {
     };
 
     return (
-        <div className="w-full max-w-md  text-white rounded-2xl p-4 flex items-center gap-4 shadow-lg">
+        <div className="glass-diagonal-gradient w-full max-w-md  text-white rounded-2xl p-4 flex items-center gap-4 shadow-lg">
 
             {/* Player Controls */}
             <div className="flex-1">
