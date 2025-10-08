@@ -10,7 +10,7 @@ export function Sidebar() {
                     <img className='w-5' src={assets.home_icon} />
                     <p  className='text-[13px] font-bold'>Home</p>
                 </div>
-                <div className="flex glass-effect glass-button items-center gap-3 pl-8 cursor-pointer">
+                <div className="searchbar flex  glass-diagonal-gradient  glass-effect glass-button items-center gap-3 pl-8 cursor-pointer">
                     <img className='w-5' src={assets.search_icon} />
                     <p contentEditable={true} className='text-[13px] font-bold'>Search</p>
                     
