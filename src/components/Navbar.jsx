@@ -8,8 +8,8 @@ export function Navbar() {
         <>
             <div className="w-full flex justify-between items-center font-semibold">
                 <div className="flex items-center gap-2">
-                    <img onClick={()=>navigate(-1)} className="w-8 bg-black p-2 rounded-2xl cursor-pointer" src={assets.arrow_left} />
-                    <img onClick={()=>navigate(+1)} className="w-8 bg-black p-2 rounded-2xl cursor-pointer" src={assets.arrow_right} />
+                    <img onClick={()=>navigate(-1)} className="album-card w-8 bg-black p-2 rounded-2xl cursor-pointer" src={assets.arrow_left} />
+                    <img onClick={()=>navigate(+1)} className="album-card w-8 bg-black p-2 rounded-2xl cursor-pointer" src={assets.arrow_right} />
                     <p className="bg-white text-black text-[13px] px-4 py-1 rounded-2xl">All</p>
                 <p className="bg-[#242424] cursor-pointer glass-card text-[13px]  px-4 py-1 rounded-2xl">Music</p>
                 <p className="bg-[#242424] cursor-pointer glass-card text-[13px]  px-4 py-1 rounded-2xl">Podcasts</p>

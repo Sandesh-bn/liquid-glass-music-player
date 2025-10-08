@@ -36,7 +36,7 @@ export function AlbumDetails({ updateSong, updateBackground }) {
             <hr />
             <div className="h-100 overflow-scroll">
             {songsData.map((item, index) => (
-                <div onClick={() => updateSong(item.id)} key={item.id} className="grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer">
+                <div onClick={() => updateSong(item.id)} key={item.id} className="album-card grid grid-cols-3 sm:grid-cols-4 gap-2 p-2 items-center text-[#a7a7a7] cursor-pointer">
                     <div className="text-white text-sm md:text-[15px]">
                         <b className="mr-4 text-[#a7a7a7]  font-bold">{index + 1}</b>
                         <img className="inline w-10 mb-5 mr-5" src={item.image} alt={item.name} />

@@ -10,7 +10,7 @@
   background: #ad5389;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #240435, #6a1448);
-  background: linear-gradient(to bottom, #0c0012, #380122, #a409c0 );
+  background: linear-gradient(to bottom, #0c0012, #380122, #a409c0);
 }
 
 body {
@@ -28,14 +28,7 @@ body {
   right: 0;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.101);
-  /* box-shadow: inset 0 0 2px 0 rgba(255, 255, 255, 0.21),
-    inset -3px -3px 3px 0 rgb(203, 203, 203),
-    0 2px 2px -3px rgba(0, 0, 0, 0.17),
-    inset 1px 3px 6px 0 rgba(206, 206, 206, 0.84),
-    inset 1px 0 2px 0 rgb(197, 197, 197),
-    inset 0 1px 2px 0 rgba(0, 0, 0, 0.14); */
-    border: 1px solid rgba(255, 255, 255, 0.62);
-
+  border: 1px solid rgba(255, 255, 255, 0.62);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
 }
@@ -44,7 +37,15 @@ body {
   height: 48px;
 }
 
-
+.album-card:hover, .song-card:hover {
+   background: linear-gradient(-30deg,
+      rgba(220, 238, 227, 0.4),
+      transparent 50%,
+      rgba(191, 233, 247, 0.4)),
+    linear-gradient(to bottom,
+      rgba(216, 240, 248, 0.1),
+      rgba(0, 191, 255, 0.1));
+}
 
 .blurred-box {
   color: #fff;
@@ -54,22 +55,36 @@ body {
   padding: 32px;
   max-height: 85%;
   overflow-y: scroll;
-  background: rgba(255, 255, 255, 0.171);
+  /* background: rgba(255, 255, 255, 0.171); */
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.62);
+
+  background: linear-gradient(-30deg,
+      rgba(220, 238, 227, 0.4),
+      transparent 50%,
+      rgba(191, 233, 247, 0.4)),
+    linear-gradient(to bottom,
+      rgba(216, 240, 248, 0.1),
+      rgba(0, 191, 255, 0.1));
 }
 
 .glass-card {
   backdrop-filter: blur(30px);
-  background-color: rgba(255, 255, 255, 0.532);
   border: 1px solid rgba(255, 255, 255, 0.629);
   color: #fff;
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.101);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+   background: linear-gradient(-30deg,
+      rgba(220, 238, 227, 0.4),
+      transparent 50%,
+      rgba(191, 233, 247, 0.4)),
+    linear-gradient(to bottom,
+      rgba(216, 240, 248, 0.1),
+      rgba(0, 191, 255, 0.1));
 }
 
 
@@ -80,12 +95,6 @@ body {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.8),
-    transparent
-  );
 }
 
 .glass-card::after {
@@ -95,12 +104,6 @@ body {
   left: 0;
   width: 1px;
   height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.8),
-    transparent,
-    rgba(255, 255, 255, 0.3)
-  );
 }
 
 @theme inline {
