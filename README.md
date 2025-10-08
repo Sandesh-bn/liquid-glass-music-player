@@ -2,9 +2,11 @@
 
 ### A Spotify-inspired music player built with React, TailwindCSS, HTML, CSS, and JavaScript.
 
-https://music-player-xi-eight.vercel.app/
+https://liquid-glass-music-player.vercel.app/
 
 ### 🚀 Features
+
+💧 Liquid glass effect
 
 🎧 Play 30-second song previews using Spotify’s track preview URLs
 
@@ -19,13 +21,13 @@ https://music-player-xi-eight.vercel.app/
 
 ### Previews:
 
-![Preview 1](https://raw.githubusercontent.com/Sandesh-bn/Music-Player/refs/heads/master/src/assets/preview1.jpg)
+![Preview 1](https://raw.githubusercontent.com/Sandesh-bn/liquid-glass-music-player/refs/heads/master/src/assets/preview1.jpg)
 
 
-![Preview 2](https://raw.githubusercontent.com/Sandesh-bn/Music-Player/refs/heads/master/src/assets/preview2.jpg)
+![Preview 2](https://raw.githubusercontent.com/Sandesh-bn/liquid-glass-music-player/refs/heads/master/src/assets/preview2.jpg)
 
 
-![Preview 3](https://raw.githubusercontent.com/Sandesh-bn/Music-Player/refs/heads/master/src/assets/preview3.jpg)
+![Preview 3](https://raw.githubusercontent.com/Sandesh-bn/liquid-glass-music-player/refs/heads/master/src/assets/preview3.jpg)
 
 
 ### Future Enhancements
